@@ -1,0 +1,49 @@
+# Build directories
+build/
+*/build/
+
+# Compiled binaries
+*.uf2
+*.elf
+*.bin
+*.hex
+*.map
+*.dis
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Pico SDK dependencies (if you want to exclude them)
+# pico-sdk/
+
+# Keep the ST driver source files but exclude any build artifacts
+STSW-IMG036/**/build/
+STSW-IMG036/**/*.o
+STSW-IMG036/**/*.elf
+STSW-IMG036/**/*.bin
